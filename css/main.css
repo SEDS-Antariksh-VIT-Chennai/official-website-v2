@@ -352,7 +352,7 @@ a.btn>span {
     width: 0;
     height: 100%;
     z-index: 1;
-    color: #3600ff;
+    color: #ababab;
     transition: width 1600ms ease;
     pointer-events: none;
 }
@@ -374,12 +374,12 @@ a.btn.btn--reversed span {
 
 button.btn--reversed:before,
 a.btn.btn--reversed:before {
-    color: #3600ff;
+    color: #ababab;
 }
 
 button.btn--reversed:after,
 a.btn.btn--reversed:after {
-    background: #3600ff;
+    background: #ababab;
 }
 
 button.btn--small,
@@ -390,7 +390,7 @@ a.btn.btn--small {
 button.btn--cocpit,
 a.btn.btn--cocpit {
     margin-top: 5px;
-    border: 1px solid #3600ff;
+    border: 1px solid #ababab;
     border-radius: 25px;
     padding: 12px 80px 12px 30px;
     text-align: left;
@@ -407,7 +407,7 @@ a.btn.btn--cocpit:after {
     left: 0;
     right: auto;
     width: 0;
-    background: #3600ff;
+    background: #ababab;
 }
 
 button.btn--cocpit:before,
@@ -673,7 +673,7 @@ h5 span:before {
     .crew__lines>div {
         position: absolute;
         height: 1px;
-        background: #3600ff;
+        background: #ababab;
     }
 
     .crew__lines>div:before {
@@ -760,7 +760,7 @@ h5 span:before {
 
 .o-loader h4 {
     margin: -15px 0 0;
-    color: #3600ff;
+    color: #ababab;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     text-align: center;
@@ -804,7 +804,7 @@ h5 span:before {
     transition: width 2s ease;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
-    background: #3600ff;
+    background: #ababab;
 }
 
 @-webkit-keyframes loader-line-anim {
@@ -851,7 +851,7 @@ h5 span:before {
     padding: 0 55px;
     width: 100vw;
     height: 100vh;
-    background: #3600ff;
+    background: #ababab;
 }
 
 @media (min-width: 768px) {
@@ -1158,7 +1158,7 @@ h5 span:before {
 
 .aside-text-box:after {
     content: "|";
-    color: #3600ff;
+    color: #ababab;
     -webkit-animation: text-cursor-blink 1s steps(1) infinite;
     animation: text-cursor-blink 1s steps(1) infinite;
 }
@@ -1377,7 +1377,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     font-weight: 400;
     font-size: 65px;
     line-height: 0.9em;
-    color: #3600ff;
+    color: #ababab;
     text-transform: uppercase;
 }
 
@@ -1510,7 +1510,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     width: 50px;
     height: 50px;
     background: radial-gradient(ellipse at center,
-            #3600ff 12%,
+            #ababab 12%,
             rgba(40, 0, 80, 0) 70%,
             transparent 99%);
     opacity: 0.2;
@@ -1783,7 +1783,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         left: -30%;
         width: 65%;
         height: 1px;
-        background: #3600ff;
+        background: #ababab;
     }
 
     .people .slick-slide+.slick-slide:after {
@@ -1970,7 +1970,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     left: 50px;
     right: 50px;
     height: 350px;
-    background: #3600ff;
+    background: #ababab;
     color: #fff;
     text-align: left;
     cursor: -webkit-grab;
@@ -1996,7 +1996,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
         width: 400px;
         height: 200px;
         margin-left: -200px;
-        background: #3600ff;
+        background: #ababab;
         color: #fff;
         text-align: left;
     }
@@ -2152,7 +2152,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     justify-content: flex-end;
     left: 100%;
     padding: 10% 10% 20%;
-    background: #3600ff;
+    background: #ababab;
     color: #fff;
     cursor: auto;
 }
@@ -2229,7 +2229,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     flex-direction: column;
     width: 86px;
     height: 86px;
-    border: 2px solid #3600ff;
+    border: 2px solid #ababab;
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
@@ -2775,7 +2775,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .socials-list__item svg path {
-    fill: #3600ff;
+    fill: #ababab;
 }
 
 .socials-list__item span {
@@ -2912,7 +2912,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 body.audio-on .socials-list__item--audio>svg path {
-    fill: #3600ff;
+    fill: #ababab;
 }
 
 .people .slick-slide:last-of-type {
@@ -3033,7 +3033,8 @@ body.audio-on .socials-list__item--audio>svg path {
     height: 100%;
     top: 0;
     left: 0;
-    background: #3600ff;
+    /* background: #ababab; blue color */
+    background: #ababab;
     -webkit-transform: translateX(-101%);
     transform: translateX(-101%);
     -webkit-transform-origin: 0% 50%;
@@ -3085,7 +3086,8 @@ body.audio-on .socials-list__item--audio>svg path {
 .o-cocpit.section-is-shown .main-text__header span,
 .o-crew.section-is-shown .main-text__header span,
 .o-text-box-section.section-is-shown .main-text__header span {
-    color: #3600ff;
+    /* color: #ababab; */
+    color: #ababab;
 }
 
 .o-cocpit.section-is-shown .main-text__header span:after,
@@ -3201,13 +3203,13 @@ body.site-is-loaded .o-topbar {
     70% {
         width: 100%;
         height: 3px;
-        background: #3600ff;
+        background: #ababab;
     }
 
     95% {
         width: 100%;
         height: 100vh;
-        background: #3600ff;
+        background: #ababab;
     }
 
     100% {
@@ -3221,13 +3223,13 @@ body.site-is-loaded .o-topbar {
     70% {
         width: 100%;
         height: 3px;
-        background: #3600ff;
+        background: #ababab;
     }
 
     95% {
         width: 100%;
         height: 100vh;
-        background: #3600ff;
+        background: #ababab;
     }
 
     100% {
@@ -3294,6 +3296,11 @@ html.work-preview-is-active {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
     }
+}
+
+svg image .arrow {
+    fill: #ababab;
+    /* Replace #FF0000 with the desired color code */
 }
 
 
