@@ -188,6 +188,8 @@ webpackJsonp([1], {
                 w = document.querySelector(".aside-text-box--fear"),
                 y = (0, l.setupTypewriter)(w),
                 g = document.querySelector(".comet");
+                
+
             new a.default(g);
             var h = function () {
                 var e = !1;
