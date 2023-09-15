@@ -804,7 +804,7 @@ h5 span:before {
     left: 0;
     width: 0;
     height: 3px;
-    transition: width 2s ease;
+    transition: width 3s ease;
     -webkit-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
     /* background: #ababab; */
@@ -1351,7 +1351,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     height: 45px;
 }
 
-.logo__warsaw {
+.logo__seds {
     margin: 0 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 8px;
@@ -1365,7 +1365,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     width: 148px;
 }
 
-.logo--report .logo__warsaw {
+.logo--report .logo__seds {
     margin: 0;
     padding: 0 5px;
 }
@@ -1986,6 +1986,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
     cursor: grab;
 }
 
+
+
 .person-details p {
     line-height: 2em;
 }
@@ -2175,8 +2177,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .portfolio-card__details svg path {
-    fill: #fff;
+    /* fill: #fff; */
 }
+
+
 
 .portfolio-card__details p {
     line-height: 2em;
@@ -2218,7 +2222,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
     list-style: none;
 }
 
-.portfolio-list--two {
+.portfolio-list--two,
+.portfolio-list--three {
     margin-top: -4px;
 }
 
@@ -2384,7 +2389,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-image: url("./../images/bg-report.png");
 }
 
-#team{
+#team {
     z-index: 200;
 }
 
@@ -3241,13 +3246,15 @@ body.site-is-loaded .o-topbar {
     70% {
         width: 100%;
         height: 3px;
-        background: #ababab;
+        background: rgb(145, 150, 146);
+        background: linear-gradient(103deg, rgba(145, 150, 146, 1) 0%, rgba(64, 69, 55, 1) 52%, rgba(2, 19, 23, 1) 100%);
     }
 
     95% {
         width: 100%;
         height: 100vh;
-        background: #ababab;
+        background: rgb(145, 150, 146);
+        background: linear-gradient(103deg, rgba(145, 150, 146, 1) 0%, rgba(64, 69, 55, 1) 52%, rgba(2, 19, 23, 1) 100%);
     }
 
     100% {
@@ -3261,19 +3268,22 @@ body.site-is-loaded .o-topbar {
     70% {
         width: 100%;
         height: 3px;
-        background: #ababab;
+        background: rgb(145, 150, 146);
+        background: linear-gradient(180deg, rgba(145, 150, 146, 1) 0%, rgba(64, 69, 55, 1) 52%, rgba(2, 8, 9, 1) 100%);
     }
 
     95% {
         width: 100%;
         height: 100vh;
-        background: #ababab;
+        background: rgb(145, 150, 146);
+        background: linear-gradient(180deg, rgba(145, 150, 146, 1) 0%, rgba(64, 69, 55, 1) 52%, rgba(2, 8, 9, 1) 100%);
     }
 
     100% {
         width: 100%;
         height: 100vh;
-        background: #fff;
+        background: rgb(145, 150, 146);
+        background: linear-gradient(180deg, rgba(145, 150, 146, 1) 0%, rgba(64, 69, 55, 1) 52%, rgba(2, 8, 9, 1) 100%);
     }
 }
 
@@ -3430,7 +3440,7 @@ svg image .arrow {
     width: 148px;
 }
 
-.logo--team .logo__warsaw {
+.logo--team .logo__seds {
     margin: 0;
     padding: 0 5px;
 }
@@ -3453,4 +3463,33 @@ svg image .arrow {
     background: bottom right no-repeat;
     background-size: contain;
     background-image: url("./../images/bg-report.png");
+
+
+
+}
+
+
+
+@keyframes circular-rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* @media screen and (min-width: 375px) and (max-width: 425px) {
+    .o-cocpit__content .main-text--home .main-text__header span {
+        font-size: 50px;
+    }
+} */
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+    .main-text h2 {
+        font-size: 30px;
+        line-height: 1.2em;
+    }
 }
