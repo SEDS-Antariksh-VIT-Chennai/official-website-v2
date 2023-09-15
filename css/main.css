@@ -3124,7 +3124,7 @@ body.audio-on .socials-list__item--audio>svg path {
 .o-text-box-section.section-is-shown .main-text__header span,
 .o-text-team-section .section-is-shown .main-text__header span {
     /* color: #ababab; */
-    color: #ababab;
+    color: white;
 }
 
 .o-cocpit.section-is-shown .main-text__header span:after,
