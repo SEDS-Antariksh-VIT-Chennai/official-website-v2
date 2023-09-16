@@ -1,4 +1,3 @@
-
 /* CSS Reset */
 
 html {
@@ -2172,7 +2171,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .portfolio-list--two,
-.portfolio-list--three {
+.portfolio-list--three,
+.portfolio-list--four,
+.portfolio-list--five,
+.portfolio-list--six,
+.portfolio-list--seven,
+.portfolio-list--eight {
     margin-top: -4px;
 }
 
