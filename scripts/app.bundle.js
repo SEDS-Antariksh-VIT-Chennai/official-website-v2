@@ -92,6 +92,180 @@ webpackJsonp([1], {
                         cssEase: "ease"
                     }
                 }]
+            }), (0, r.default)(".portfolio-list--three").slick({
+                dots: !1,
+                arrows: !1,
+                centerMode: !0,
+                centerPadding: "0",
+                touchMove: !1,
+                edgeFriction: .05,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                touchThreshold: 10,
+                infinite: !0,
+                autoplay: !0,
+                speed: 15e3,
+                autoplaySpeed: 0,
+                cssEase: "linear",
+                asNavFor: ".portfolio-list--four",
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                        centerMode: !0,
+                        centerPadding: "50px",
+                        infinite: !1,
+                        autoplay: !1,
+                        speed: 500,
+                        cssEase: "ease"
+                    }
+                }]
+            }), (0, r.default)(".portfolio-list--four").slick({
+                dots: !1,
+                arrows: !1,
+                centerMode: !0,
+                centerPadding: "0",
+                touchMove: !1,
+                edgeFriction: .05,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                touchThreshold: 10,
+                infinite: !0,
+                autoplay: !0,
+                speed: 15e3,
+                autoplaySpeed: 0,
+                cssEase: "linear",
+                asNavFor: ".portfolio-list--five",
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                        centerMode: !0,
+                        centerPadding: "50px",
+                        infinite: !1,
+                        autoplay: !1,
+                        speed: 500,
+                        cssEase: "ease"
+                    }
+                }]
+            }), (0, r.default)(".portfolio-list--five").slick({
+                dots: !1,
+                arrows: !1,
+                centerMode: !0,
+                centerPadding: "0",
+                touchMove: !1,
+                edgeFriction: .05,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                touchThreshold: 10,
+                infinite: !0,
+                autoplay: !0,
+                speed: 15e3,
+                autoplaySpeed: 0,
+                cssEase: "linear",
+                asNavFor: ".portfolio-list--six",
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                        centerMode: !0,
+                        centerPadding: "50px",
+                        infinite: !1,
+                        autoplay: !1,
+                        speed: 500,
+                        cssEase: "ease"
+                    }
+                }]
+            }), (0, r.default)(".portfolio-list--six").slick({
+                dots: !1,
+                arrows: !1,
+                centerMode: !0,
+                centerPadding: "0",
+                touchMove: !1,
+                edgeFriction: .05,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                touchThreshold: 10,
+                infinite: !0,
+                autoplay: !0,
+                speed: 15e3,
+                autoplaySpeed: 0,
+                cssEase: "linear",
+                asNavFor: ".portfolio-list--seven",
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                        centerMode: !0,
+                        centerPadding: "50px",
+                        infinite: !1,
+                        autoplay: !1,
+                        speed: 500,
+                        cssEase: "ease"
+                    }
+                }]
+            }), (0, r.default)(".portfolio-list--seven").slick({
+                dots: !1,
+                arrows: !1,
+                centerMode: !0,
+                centerPadding: "0",
+                touchMove: !1,
+                edgeFriction: .05,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                touchThreshold: 10,
+                infinite: !0,
+                autoplay: !0,
+                speed: 15e3,
+                autoplaySpeed: 0,
+                cssEase: "linear",
+                asNavFor: ".portfolio-list--eight",
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                        centerMode: !0,
+                        centerPadding: "50px",
+                        infinite: !1,
+                        autoplay: !1,
+                        speed: 500,
+                        cssEase: "ease"
+                    }
+                }]
+            }), (0, r.default)(".portfolio-list--eight").slick({
+                dots: !1,
+                arrows: !1,
+                centerMode: !0,
+                centerPadding: "0",
+                touchMove: !1,
+                edgeFriction: .05,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                touchThreshold: 10,
+                infinite: !0,
+                autoplay: !0,
+                speed: 15e3,
+                autoplaySpeed: 0,
+                cssEase: "linear",
+                asNavFor: ".portfolio-list--seven",
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        initialSlide: 1,
+                        centerMode: !0,
+                        centerPadding: "50px",
+                        infinite: !1,
+                        autoplay: !1,
+                        speed: 500,
+                        cssEase: "ease"
+                    }
+                }]
             }), (0, r.default)(".person-big-image").slick({
                 dots: !1,
                 arrows: !1,
