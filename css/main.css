@@ -3167,6 +3167,10 @@ body.audio-on .socials-list__item--audio>svg path {
     opacity: 0;
 }
 
+.blog-white{
+    color: white;
+}
+
 body.site-is-loaded .o-loader {
     opacity: 0;
     pointer-events: none;
